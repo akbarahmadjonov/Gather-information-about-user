@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project homework</title>
+    <link rel="stylesheet" href="/secondPage.html">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <div class="upperList">
+        <div class="buttons">
+            <h1>Account settings</h1>
+            <a href="/secondPage.html">
+                <img class="closeX" src="./images/Vector.svg" alt="close icon">
+            </a>
+        </div>
+
+        <div class="forms">
+            <form action="https://echo.htmlacademy.ru/" method="post">
+                <img class="userImage" src="/images/userProfile1.jfif" alt="userimage">
+
+                <!-- Username part -->
+                <div class="input-wrapper">
+                    <label for="username">USERNAME</label>
+                    <input type="text" name='username' id="username" placeholder="Enter your username" required>
+
+                    <!-- First name part -->
+                    <div class="separate-wrapper">
+                        <div class="separate-own">
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" name='firstname' id="firstname" placeholder="Enter your first name"
+                                required>
+                        </div>
+
+                        <!-- Last name part -->
+                        <div class="separate-own">
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" name='lastname' id="lastname" placeholder="Enter your last name"
+                                required>
+                        </div>
+                    </div>
+
+                    <!-- Email part -->
+                    <label for="email">EMAIL</label>
+                    <input type="email" name='email' id="email" placeholder="Enter your email" required>
+
+                    <!-- AREA part -->
+                    <label for="compliments">BIO</label>
+                    <textarea class="textareaOwn" name="compliments" cols="50" rows="6" id="compliments"
+                        placeholder="Tell us about yourself"></textarea>
+                </div>
+
+                <!-- Lower submitting buttons -->
+                <div class="lowerButtons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

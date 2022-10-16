@@ -1,0 +1,145 @@
+/** A project has been started **/
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.upperList {
+    position: relative;
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    background: #FDEC51;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.buttons h1 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+.upperList .closeX {
+    padding: 10px;
+}
+
+.upperList .closeX:hover {
+    background: rgb(251 238 126);;
+    border-radius: 50%;
+}
+
+/** Styling buttons **/
+
+.forms {
+    position: relative;
+    margin-left: 50px;
+    width: 520px;
+    height: 450px;
+    background: red;
+    /* margin: 0 auto; */
+    background: #FFFFFF;
+    box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.35);
+}
+
+.forms .userImage {
+    left: 50px;
+    top: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/** Padding top from user-image * */
+
+
+/* ** Giving padding and margin to make distance noticable ** */
+.input-wrapper {
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.input-wrapper label {
+    color: #AAAAAA;
+    font-size: 12px;
+}
+
+.input-wrapper input::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #767575;
+}
+
+input {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #1877f2;
+}
+
+.textareaOwn {
+    resize: vertical;
+}
+
+.textareaOwn:focus {
+    border-color: #1877f2;
+}
+
+textarea {
+    outline: none;
+    border-width: 0 0 2px;
+    border-color: #D9D9D9;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #D9D9D9;
+}
+
+.separate-wrapper {
+    display: flex;
+}
+/* ** Giving padding and margin to make distance noticable ** */
+
+/** Styling lower buttons **/
+.lowerButtons button {
+    cursor: pointer;
+    color: #6E693F;
+    font-size: 20px;
+    border: none;
+    background: none;
+    padding: 5px;
+    float: right;
+    margin-left: 24px;
+}
+
+.lowerButtons button:hover {
+    color: #fff;
+    border-radius: 5%;
+    background: lightslategrey;
+}
+
+/*** Can't put buttons to lower, margin-top has been used for that ***/
+
+.lowerButtons{
+    margin-right: 98px;
+    margin-top: 100px;
+}
+
+/** End of project >> **/
+
+/** Please recheck this project **/ 
